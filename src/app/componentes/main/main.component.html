@@ -1,0 +1,19 @@
+
+
+<div class="score">
+  <app-score [score]="score"></app-score>
+</div>
+<div class="app">
+  <div class="game">
+    <div  *ngFor="let candy of randomColorArragment; index as i" cdkDropList  (cdkDropListDropped)="drop($event)"
+
+    >
+        <img
+            [src]="candy"
+            cdkDrag
+            [id] = i
+
+        >
+    </div>
+ </div>
+</div>

@@ -1,0 +1,17 @@
+div{
+  width:100%;
+  margin-top:15%;
+  text-align:center;
+}
+p{
+  display:inline-block;
+  width:30%;
+  margin:5% auto;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding:1em;
+  line-height:1.5em;
+  background:hsla(67, 95%, 95%, 1);
+}
+.score {
+  border:solid 5px hsla(0, 95%, 35%, 1);
+}
